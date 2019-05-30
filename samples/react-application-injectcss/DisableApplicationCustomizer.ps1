@@ -1,4 +1,5 @@
-$tenantUrl = "https://<your-tenant>.sharepoint.com/sites/<your-site>"
+# Change these variables to enable the extension
+$tenantUrl = Read-Host 'Input yout server url: https://<tenant>.sharepoint.com/<more>'
 
 # Get credentials
 $credentials = Get-Credential
